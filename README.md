@@ -1,18 +1,15 @@
+[README_SDA_SIMULATOR2 (2).md](https://github.com/user-attachments/files/25462951/README_SDA_SIMULATOR2.2.md)
 # 🛰️ Space Domain Awareness Simulator v2
 
 **Advanced Interactive Simulation of Parallax-Based RSO Tracking**
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-00c8ff?style=for-the-badge&logo=github)](https://tahaakrt.github.io/sda-simulator2)
-[![IEEE TAES](https://img.shields.io/badge/IEEE-TAES%202025-1f6feb?style=for-the-badge)](https://doi.org/10.1109/TAES.2025.3528922)
-[![QR Access](https://img.shields.io/badge/📱-QR_Access-39ff7a?style=for-the-badge)](https://tahaakrt.github.io/sda-simulator2)
+## 🔗 Hızlı Erişim
 
----
+**🌐 Canlı Demo:** https://tahaakrt.github.io/sda-simulator2
 
-## 🚀 Canlı Demo
+**📄 IEEE Makalesi:** https://doi.org/10.1109/TAES.2025.3528922
 
-👉 **[tahaakrt.github.io/sda-simulator2](https://tahaakrt.github.io/sda-simulator2)**
-
-📱 **Mobil Erişim:** Siteyi açın → Alt kısımda "QR KOD İLE AÇ" butonuna tıklayın → Telefonunuzun kamerasıyla tarayın
+**💾 GitHub Repo:** https://github.com/TahaAkrt/sda-simulator2
 
 ---
 
@@ -343,12 +340,17 @@ https://doi.org/10.1109/TAES.2025.3528922
 
 ## 🔗 Bağlantılar
 
-| Kaynak | Link |
-|--------|------|
-| 🌐 **Canlı Demo** | [tahaakrt.github.io/sda-simulator2](https://tahaakrt.github.io/sda-simulator2) |
-| 📄 **IEEE Makalesi** | [doi.org/10.1109/TAES.2025.3528922](https://doi.org/10.1109/TAES.2025.3528922) |
-| 💾 **GitHub Repo** | [github.com/TahaAkrt/sda-simulator2](https://github.com/TahaAkrt/sda-simulator2) |
-| 📱 **QR Access** | Sitede "QR KOD İLE AÇ" butonu |
+**🌐 Canlı Demo:**  
+https://tahaakrt.github.io/sda-simulator2
+
+**📄 IEEE Makalesi:**  
+https://doi.org/10.1109/TAES.2025.3528922
+
+**💾 GitHub Deposu:**  
+https://github.com/TahaAkrt/sda-simulator2
+
+**📱 QR Kod Erişimi:**  
+Siteyi açın → Alt kısımda "QR KOD İLE AÇ" butonuna tıklayın
 
 ---
 
@@ -416,7 +418,9 @@ Orijinal bilimsel araştırma IEEE'ye aittir ve standart akademik atıf kurallar
 
 **Star Tracker + GNSS + Parallax = 0.69m Hassasiyet**
 
-[🚀 Şimdi Dene](https://tahaakrt.github.io/sda-simulator2) • [📖 Makaleyi Oku](https://doi.org/10.1109/TAES.2025.3528922) • [⭐ Star on GitHub](https://github.com/TahaAkrt/sda-simulator2)
+**🚀 Canlı Demo:** https://tahaakrt.github.io/sda-simulator2
+
+**📖 IEEE Makalesi:** https://doi.org/10.1109/TAES.2025.3528922
 
 ---
 
