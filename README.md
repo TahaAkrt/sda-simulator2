@@ -1,4 +1,3 @@
-[README_SDA_SIMULATOR2.md](https://github.com/user-attachments/files/25462896/README_SDA_SIMULATOR2.md)
 # 🛰️ Space Domain Awareness Simulator v2
 
 **Advanced Interactive Simulation of Parallax-Based RSO Tracking**
