@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SDA — Uzay Alan Farkındalığı Simülatörü</title>
+<title>SDA Simulator v2 — Space Domain Awareness</title>
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Exo+2:wght@200;400;600;800&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
 <style>
   :root {
@@ -423,10 +423,10 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
     <line x1="26" y1="26" x2="12" y2="36" stroke="#00c8ff" stroke-width="1" stroke-dasharray="3 2" opacity=".5"/>
   </svg>
   <div>
-    <h1>UZAY ALAN FARKINDALIK SİMÜLATÖRÜ</h1>
-    <p>STAR TRACKER · GNSS · PARALLAX · RSO YÖRÜNGE BELİRLEME · IEEE TAES 2025</p>
+    <h1>UZAY ALAN FARKINDALIK SİMÜLATÖRÜ v2.0</h1>
+    <p>STAR TRACKER · GNSS · PARALLAX · RSO YÖRÜNGE BELİRLEME · IEEE TAES 2025 · TAHA AKKURT</p>
   </div>
-  <div class="badge">CANLI SİMÜLASYON</div>
+  <div class="badge">v2.0 · CANLI SİMÜLASYON</div>
 </header>
 
 <!-- NAV -->
@@ -763,6 +763,20 @@ var QRCode;!function(){function a(a){this.mode=c.MODE_8BIT_BYTE,this.data=a,this
           <span class="chip chip-cyan">Uzaktan Algılama</span>
         </p>
       </div>
+
+      <div class="about-card" style="margin-top:20px;background:linear-gradient(135deg, rgba(0,200,255,.08), rgba(57,255,122,.04));">
+        <h3>GELİŞTİRİCİ — v2.0</h3>
+        <div class="data-row"><span class="data-key">İsim</span><span class="data-val" style="color:var(--green)">Taha Akkurt</span></div>
+        <div class="data-row"><span class="data-key">Versiyon</span><span class="data-val">2.0 (Advanced)</span></div>
+        <div class="data-row"><span class="data-key">Repo</span><span class="data-val" style="font-size:.7rem;">github.com/TahaAkrt/sda-simulator2</span></div>
+        <div class="data-row"><span class="data-key">Live URL</span><span class="data-val" style="font-size:.7rem;">tahaakrt.github.io/sda-simulator2</span></div>
+        <div style="margin-top:14px;">
+          <span class="chip chip-green">Parallax Engine</span>
+          <span class="chip chip-green">Monte Carlo</span>
+          <span class="chip chip-cyan">QR Access</span>
+          <span class="chip chip-orange">Gibbs OD</span>
+        </div>
+      </div>
     </div>
 
     <div>
@@ -809,12 +823,12 @@ F(Φ) = 2/(3π²)·((π-Φ)cos(Φ) + sin(Φ))</div>
     <div class="author-avatar">TA</div>
     <div class="author-info">
       <div class="author-name">TAHA AKKURT</div>
-      <div class="author-role">Uzay Alan Farkındalık Simülatörü · Geliştirici</div>
+      <div class="author-role">Space Domain Awareness Simulator v2.0 · Developer & Implementer</div>
     </div>
   </div>
   <div class="author-center">
     <span>IEEE TAES 2025</span> · Thangavel, Burroni, Servidia, Spiller, Sabatini<br>
-    Uzay Alan Farkındalığı — Star Tracker Parallaks Simülasyonu
+    Parallax-Based RSO Tracking — 0.69m Accuracy @ 7000km Orbit
   </div>
   <button id="qr-btn" onclick="openQR()">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -825,14 +839,14 @@ F(Φ) = 2/(3π²)·((π-Φ)cos(Φ) + sin(Φ))</div>
       <rect x="5" y="16" width="3" height="3" fill="currentColor" stroke="none"/>
       <path d="M14 14h3v3h-3zM17 17h3v3h-3zM14 20h3"/>
     </svg>
-    QR KOD İLE AÇ
+    📱 QR KOD İLE AÇ
   </button>
 </div>
 
 <!-- ── QR MODAL ── -->
 <div id="qr-modal" onclick="if(event.target===this)closeQR()">
   <div class="qr-card">
-    <h3>📱 TELEFONDA AÇ</h3>
+    <h3>📱 MOBİL ERİŞİM — v2.0</h3>
     <p>QR kodu telefonunuzun kamerasıyla tarayın</p>
     <div id="qr-canvas-wrap">
       <canvas id="qrCanvas" width="200" height="200"></canvas>
@@ -840,7 +854,8 @@ F(Φ) = 2/(3π²)·((π-Φ)cos(Φ) + sin(Φ))</div>
     <div class="qr-url" id="qr-url-text">Yükleniyor...</div>
     <br>
     <div style="font-family:'Share Tech Mono';font-size:.68rem;color:var(--dim);margin-bottom:8px;">
-      — Taha Akkurt tarafından geliştirildi —
+      — Space Domain Awareness Simulator v2.0 —<br>
+      <span style="color:var(--cyan);">Developed by Taha Akkurt</span>
     </div>
     <button class="qr-close" onclick="closeQR()">✕ KAPAT</button>
   </div>
